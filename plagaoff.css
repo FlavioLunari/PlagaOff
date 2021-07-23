@@ -1,0 +1,252 @@
+
+/*estilo de toda la pagina*/
+/***********************************/
+
+*{ 
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/*Titulo de la pagina*/
+/*******************************/
+
+header{
+        background-color: #1C8647;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5)
+}
+
+
+.imagenredonda{
+   border: 10px solid #20F04C;
+   padding: 10px;
+   margin-bottom: 20px;
+   margin-left: 500px;
+   background-color: yellowgreen;
+   display: flex;
+   flex-direction: row;
+
+}
+
+.titulo2{
+    color: #20F04C;
+    letter-spacing: 5px;
+}
+
+/*cuerpo de la pagina*/
+/************************************/
+
+body{
+    background-color:white  ;
+}
+
+/*menu de navegacion*/
+/************************/
+
+.Navegacion{
+    margin-bottom: 30px;
+    border: 10px solid yellowgreen;
+    padding: 10px
+}
+
+.Navegacion ul{
+    list-style: none;
+}
+
+.Menu > li {
+    position: relative;
+    display: inline-block;
+}
+.Menu >li >a{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 70px;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    color: yellowgreen;
+    font-size: 18px;
+
+}
+.Menu li a:hover{
+    color:black;
+    transition: all 3.s;
+}
+ 
+.submenu{
+position: absolute;
+background-color: #1C8647;
+width: 100%;
+display: none   ;
+}
+
+.submenu li a{
+    display: block;
+    padding: 10px;
+    color: yellowgreen;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+}
+
+.Menu li:hover .submenu{
+    display: block;
+} 
+
+/*CUERPO DEL MENU DE LAS CUCARACHAS */
+/********************************/
+
+
+.parrafo2{
+    text-align: center;
+    color: white;
+    font-size: 26px;
+
+}
+
+.Final2{
+    color: #20F04C;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.parrafo1{
+    display: inline-block;
+    position: relative;
+    font-size: 24px;
+    margin: 40px;
+    color: #20F04C;
+    font-family: 'Fira Sans', sans-serif;
+   
+}   
+.imagen1{
+
+    border: 5px solid #20F04C;
+ 
+}
+
+/* texto con imagen*/
+/**********************/
+
+
+.textosobre1{
+    background-image: url('./imagenes/sobreimagen1.jpeg');
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    height: 300px;
+
+}
+
+.titulo3{
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    width: 1200px;
+}
+
+/*footer o pie de pagina*/
+/**********************************/
+.final1{
+    text-align: right;
+    text-decoration: white;
+    background-color: #75E6AC;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.redesociales{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+
+}
+
+
+/*******************************/
+/* SEGUNDA PAG. PRODUCTOS.*/
+/*******************************/
+
+.Titulosprodu{
+    text-align: center;
+    color: #75E6AC ;
+    font-size: 26px;
+    text-decoration: underline;
+    padding: 15px;
+    margin-bottom: 15px;
+
+}
+
+.imagenesprod{
+    width: 200px;
+    height:200px;
+    border-radius:80px;
+    border:10px solid #75E6AC;
+    margin-left: 540px;
+
+
+}
+.parrafopro{
+    text-align: center;
+    color: #1C8647;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/************************************/
+/*edicion de cuerpo o body*/
+/*************************************/
+
+
+
+
+
+/***************************************/
+/*tercera pagina o contacto*/
+/***************************************/
+ 
+
+
+
+/**********************************/
+/*cuarta pagina Sobrenosotros.
+/*************************************/
+
+.textoedit{
+    letter-spacing: 3px;
+    color: #1C8647;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+}
+
+.margenes{
+    margin: 10px  ;
+}
+
+
+.negrita{
+    color: black;
+}
+
+/***********************************/
+/*edicion de la parte de galerias*/
+/**********************************/
+
+.galerias1{
+    width: 300px;
+    height: 200px;
+    border: 10px solid yellowgreen;
+}
+.galerias1, div{
+margin-left: 10px;
+}
+
+.redesociales,ul{
+    list-style: none;
+}
+
+.redesociales > li {
+    position: relative;
+    display: inline-block;}
